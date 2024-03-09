@@ -1,0 +1,10 @@
+* {
+    font-family: cursive;
+}
+.last {
+    color: rgb(0, 133, 133);
+}
+.studio {
+    margin-left: 150px;
+}
+.portfolio {margin-left: 300px;}
