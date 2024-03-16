@@ -34,4 +34,10 @@
 .active {
     color: var(--accent-color);
 }
+.blackfon {
+    background-color:#2F303A;
+}
+.naszakomanda {
+    background: #F5F4FA;
+}
 /* Це початок кінця */
