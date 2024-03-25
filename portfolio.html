@@ -4,92 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <a href="index.html">WebStudio</a>
+        <a href="index.html" class="raleway">WebStudio</a>
         <ul>
-            <li><a href="index.html">Студія</a></li>
-            <li><a href="portfolio.html">Портфоліо</a></li>
-            <li><a href="#">Контакти</a></li>
+            <li><a href="index.html" class="header-link">Студія</a></li>
+            <li><a href="portfolio.html" class="header-link">Портфоліо</a></li>
+            <li><a href="#" class="header-link">Контакти</a></li>
         </ul>
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="header-link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-link"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
         <section>
-            <button>Усі</button>
-            <button>Веб-сайти</button>
-            <button>Додатки</button>
-            <button>Дизайн</button>
-            <button>Маркетинг</button>
+            <button class="portfolio-button">Усі</button>
+            <button class="portfolio-button">Веб-сайти</button>
+            <button class="portfolio-button">Додатки</button>
+            <button class="portfolio-button">Дизайн</button>
+            <button class="portfolio-button">Маркетинг</button>
         </section>
-        <section>
-            <img src="img/1(2).png" alt="laptop" width="200">
-            <br>
-            <b>Технокряк</b>
-            <p>Веб-сайт</p>
-        </section>
-        <section>
-            <img src="img/2(2).png" alt="basketbolist" width="200">
-            <br>
-            <b>Постер New Orlean vs Golden Star</b>
-            <p>Дизайн</p>
-        </section>
-        <section>
-            <img src="img/3(2).png" alt="restaurant" width="200">
-            <br>
-            <b>Ресторан Seafood</b>
-            <p>Додаток</p>
-        </section>
-        <section>
-            <img src="img/4.png" alt="headphones" width="200">
-            <br>
-            <b>Проєкт Prime</b>
-            <p>Маркетинг</p>
-        </section>
-        <section>
-            <img src="img/5.png" alt="Boxes" width="200">
-            <br>
-            <b>Проєкт Boxes</b>
-            <p>Додаток</p>
-        </section>
-        <section>
-            <img src="img/6.png" alt="Monitor" width="200">
-            <br>
-            <b>Inspiration has no Borders</b>
-            <p>Веб-сайт</p>
-        </section>
-        <section>
-            <img src="img/7.png" alt="Book" width="200">
-            <br>
-            <b>Видання Limited Edition</b>
-            <p>Дизайн</p>
-        </section>
-        <section>
-            <img src="img/8.png" alt="Birka" width="200">
-            <br>
-            <b>Проєкт LAB</b>
-            <p>Маркетинг</p>
-        </section>
-        <section>
-            <img src="img/9.png" alt="Laptop (another)" width="200">
-            <br>
-            <b>Growing Business</b>
-            <p>Додаток</p>
-        </section>
+        <ul>
+            <li><img src="img/1(2).png" alt="laptop" width="200">
+                <br>
+                <b class="card-title">Технокряк</b>
+                <p class="card-description">Веб-сайт</p>
+            </li>
+            <li><img src="img/2(2).png" alt="basketbolist" width="200">
+                <br>
+                <b class="card-title">Постер New Orlean vs Golden Star</b>
+                <p class="card-description">Дизайн</p>
+            </li>
+            <li> <img src="img/3(2).png" alt="restaurant" width="200">
+                <br>
+                <b class="card-title">Ресторан Seafood</b>
+                <p class="card-description">Додаток</p>
+            </li>
+            <li><img src="img/4.png" alt="headphones" width="200">
+                <br>
+                <b class="card-title">Проєкт Prime</b>
+                <p class="card-description">Маркетинг</p>
+            </li>
+            <li><img src="img/5.png" alt="Boxes" width="200">
+                <br>
+                <b class="card-title">Проєкт Boxes</b>
+                <p class="card-description">Додаток</p>
+            </li>
+            <li><img src="img/6.png" alt="Monitor" width="200">
+                <br>
+                <b class="card-title">Inspiration has no Borders</b>
+                <p class="card-description">Веб-сайт</p>
+            </li>
+            <li><img src="img/7.png" alt="Book" width="200">
+                <br>
+                <b class="card-title">Видання Limited Edition</b>
+                <p class="card-description">Дизайн</p>
+            </li>
+            <li><img src="img/8.png" alt="Birka" width="200">
+                <br>
+                <b class="card-title">Проєкт LAB</b>
+                <p class="card-description">Маркетинг</p>
+            </li>
+            <li><img src="img/9.png" alt="Laptop (another)" width="200">
+                <br>
+                <b class="card-title">Growing Business</b>
+                <p class="card-description">Додаток</p>
+            </li>
+        </ul>
     </main>
     <footer>
-            <a href="index.html">WebStudio</a>
-            <ul>
-                <li><a href="http://surl.li/neaiq" target="_blank">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+        <a href="index.html" class="raleway">WebStudio</a>
+        <ul>
+            <li class="footer-adress"><a href="http://surl.li/neaiq" target="_blank">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li class="footer-adress"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="footer-adress"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     </footer>
 </body>
 
