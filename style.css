@@ -101,6 +101,9 @@
 }
 .header-link {
     color: rgb(33, 33, 33);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .item-title {
     font-family: "Roboto", sans-serif;
