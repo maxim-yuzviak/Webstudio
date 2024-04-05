@@ -88,6 +88,7 @@
     font-weight: 900;
     font-style: normal;
     text-transform: uppercase;
+    line-height: 60px;
 }
 
 .raleway {
@@ -96,56 +97,74 @@
     font-weight: 700;
     font-style: normal;
 }
+
 .header-link:hover {
     color: rgb(33, 150, 243);
 }
+
 .header-link {
     color: rgb(33, 33, 33);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
+
 .item-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
+
 .about-item {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    line-height: 24px;
 }
+
 .section-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
+
 .people-name {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
+
 .position {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .footer-adress {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .portfolio-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
+
 .card-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
+
 .card-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.golovne {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
