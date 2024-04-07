@@ -11,7 +11,8 @@
 } */
 
 .webstudio {
-    font-size: 25px;
+    font-size: 26px;
+    margin: 24px 0px 25px 0px;
 }
 
 .webstudiof {
@@ -59,6 +60,8 @@
 
 .blackfon {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 .naszakomanda {
@@ -96,6 +99,7 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    text-decoration: none;
 }
 
 .header-link:hover {
@@ -107,6 +111,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    text-decoration: none;
 }
 
 .item-title {
@@ -169,3 +174,29 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.spysok-header {
+    list-style: none;
+}
+
+.studio-header {
+    margin: 32px 0px 32px 0px;
+}
+
+.portf-header {
+    margin: 32px 0px 32px 0px;
+}
+
+.contact-header {
+    margin: 32px 0px 32px 0px;
+}
+.mail-header {
+    margin: 32px 0px 32px 0px;
+}
+.tel-header {
+    margin: 32px 0px 32px 0px;
+}
+.rishenna-text {
+    margin-top: 200px;
+}
+/* .rishenna-button */
