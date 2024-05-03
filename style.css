@@ -200,3 +200,8 @@
     margin-top: 200px;
 }
 /* .rishenna-button */
+.container {
+    margin: 0 auto;
+    width: 1170px;
+    outline: 1px solid darkgreen;
+}
