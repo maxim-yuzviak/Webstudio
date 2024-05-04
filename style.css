@@ -131,6 +131,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
+    
 }
 
 .people-name {
@@ -204,4 +205,34 @@
     margin: 0 auto;
     width: 1170px;
     outline: 1px solid darkgreen;
+}
+.spysok-header {
+    display: flex;
+    gap: 50px;
+    padding-left: 0px;
+}
+.rishenna-punkty {
+    list-style: none;
+}
+.rishenna-spysok {
+    display: flex;
+    gap: 30px;
+}
+.another-spysok {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding-left: 344px;
+}
+.zanyatya-spysok {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    /* margin-left: 215px;
+    margin-right: 215px; */
+}
+.komanda-spysok {
+    list-style: none;
+    display: flex;
+    gap: 30px;
 }
