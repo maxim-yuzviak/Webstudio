@@ -5,157 +5,321 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 
-</head>
-
-<body class="golovne">
-    <header id="top" class="container">
-        <a href="index.html" class="raleway webstudio" style="color: black;"><span
-                style="color: rgb(0, 170, 255);">Web</span>Studio</a>
-        <ul class="spysok-header">
-            <li><a href="index.html" class="roboto-medium header-link studio-header">Студія</a></li>
-            <li><a href="portfolio.html" class="roboto-medium header-link portf-header">Портфоліо</a></li>
-            <li><a href="#" class="roboto-medium header-link contact-header">Контакти</a></li>
-            <ul class="another-spysok">
-                <li><a href="mailto:info@devstudio.com"
-                        class="roboto-medium header-link mail-header">info@devstudio.com</a>
-                </li>
-                <li><a href="tel:+380961111111" class="roboto-medium header-link tel-header">+38 096 111 11 11</a></li>
-            </ul>
-        </ul>
+<body>
+    <div class="container">
+        <header>
+            <!-- <div class="header-wraper"> -->
+            <a href="index.html" class="webstudio">Web<span class="studio">Studio</span></a>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="active-r-now"><a href="index.html" class="active-r-now">Студія<div class="decor"></div></a></li>
+                    <li class="active"><a href="портфоліо.html" class="active">Портфоліо</a></li>
+                    <li class="active"><a href="404.html" class="active">Контакти</a></li>
+                </ul>
+                <!-- </div>
+        <div class="con-wrap"> -->
+                <ul class="header-list-contacts">
+                    <!-- <li class="active"></li> -->
+                    <li class="active-svg"><a href="mailto:info@devstudio.com" class="active mailto-2"
+                            ><svg class="header-mail" width="16" height="12">
+                            <use href="images/symbol-defs.svg#icon-e-mail"></use>
+                        </svg>info@devstudio.com</a></li>
+                    <li class="active-svg"><a href="tel:+380961111111" class="header-tell"><svg class="header-phone" width="10" height="16">
+                            <use href="images/symbol-defs.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a></li>
+                </ul>
+            </nav>
+    </div>
     </header>
+    </div>
+
     <main>
-        <section class="blackfon">
-            <center>
-                <div class="container">
-                    <h1 class="roboto-black rishenna-text">Ефективні рішення для вашого бізнесу</h1>
-                    <button type="button" class="roboto-bold rishenna-button">Замовити послугу</button>
-                </div>
-            </center>
-        </section>
-        <section class="rishenna">
+        <section class="efectivity col">
             <div class="container">
-                <ul class="rishenna-spysok">
-                    <li class="rishenna-punkty">
-                        <svg width="65.315552" height="70.000000" viewBox="0 0 65.3156 70" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <desc>
-                                    Created with Pixso.
-                            </desc>
-                            <defs/>
-                            <path id="Vector" d="M64.97 48.33L46.5 29.73L48.55 19.63C49.08 19.84 49.64 19.95 50.21 19.95L50.22 19.95C52.83 19.98 54.97 17.89 55 15.28C55.03 12.68 52.94 10.54 50.33 10.51C47.73 10.48 45.59 12.56 45.56 15.17C45.55 15.73 45.64 16.29 45.83 16.81L34.98 18.14L17.28 0.34C17.06 0.12 16.77 0 16.46 0C16.15 0 15.86 0.12 15.64 0.33L12.33 3.62C11.88 4.08 11.88 4.82 12.33 5.27L14.11 7.08C7.21 19.76 9.45 35.47 19.62 45.72C19.72 45.81 19.82 45.88 19.94 45.93C19.87 46.33 19.83 46.73 19.83 47.13L19.83 60.66L5.83 60.66C2.61 60.67 0 63.28 0 66.5L0 68.83C0 69.47 0.52 70 1.16 70L54.83 70C55.47 70 56 69.47 56 68.83L56 66.5C55.99 63.28 53.38 60.67 50.16 60.66L36.16 60.66L36.16 54.66C38.35 55.12 40.59 55.36 42.83 55.36C48.21 55.36 53.5 54.02 58.23 51.46L60.02 53.26C60.24 53.48 60.53 53.61 60.84 53.61C61.15 53.61 61.44 53.49 61.66 53.27L64.97 49.98C65.42 49.53 65.42 48.79 64.97 48.33ZM48.58 13.63C49.49 12.72 50.97 12.73 51.88 13.64C52.79 14.55 52.78 16.03 51.87 16.94C51.43 17.37 50.84 17.62 50.22 17.62L50.22 17.62C48.93 17.61 47.89 16.56 47.89 15.27C47.9 14.66 48.14 14.06 48.58 13.63L48.58 13.63ZM45.83 21.3L44.52 27.74L41.95 25.15L45.83 21.3ZM44.51 19.32L40.31 23.5L37.06 20.23L44.51 19.32ZM50.16 63C52.09 63 53.66 64.56 53.66 66.5L53.66 67.66L2.33 67.66L2.33 66.5C2.33 64.56 3.9 63 5.83 63L50.16 63ZM33.83 58.33L33.83 60.66L22.16 60.66L22.16 58.33L33.83 58.33ZM22.16 56L22.16 47.13C22.16 44.3 24.78 42 28 42C31.21 42 33.83 44.3 33.83 47.13L33.83 56L22.16 56ZM36.16 52.29L36.16 47.13C36.16 43.01 32.5 39.66 28 39.66C25.08 39.62 22.36 41.1 20.82 43.57C11.94 34.22 9.94 20.28 15.83 8.82L56.52 49.74C50.24 52.94 43.04 53.84 36.16 52.29ZM60.86 50.79L59.21 49.14L16.45 6.11L14.79 4.46L16.45 2.81L33.8 20.27C33.81 20.27 33.82 20.28 33.82 20.29L62.51 49.14L60.86 50.79Z" fill="#212121" fill-opacity="1.000000" fill-rule="nonzero"/>
-                            <path id="Vector" d="M28.01 44.33L27.99 44.33C26.06 44.33 24.49 45.89 24.49 47.82C24.49 49.76 26.05 51.33 27.98 51.33L27.99 51.33C29.93 51.33 31.5 49.77 31.5 47.83C31.5 45.9 29.94 44.33 28.01 44.33ZM28.82 48.66C28.6 48.87 28.3 49 27.99 49C27.35 48.99 26.83 48.47 26.83 47.82C26.84 47.51 26.96 47.22 27.18 47C27.4 46.79 27.69 46.66 27.99 46.66C28.64 46.67 29.16 47.19 29.16 47.83C29.15 48.14 29.03 48.44 28.81 48.66L28.82 48.66Z" fill="#2196F3" fill-opacity="1.000000" fill-rule="nonzero"/>
-                        </svg>
-                        
-                        <h4 class="item-title">УВАГА ДО ДЕТАЛЕЙ</h4>
-                        <p class="about-item">Ідейні міркування, і навіть початок повсякденної роботи з формування
-                            позиції.
-                        </p>
+                <h1 class="main-title">Ефективні рішення для<br>вашого бізнесу</h1>
+                <button type="button" class="button-order btn-open" data-modal-open>Замовити послугу</button>
+            </div>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn-close" data-modal-close><svg class="close-img"><use href="images/symbol-defs-2.svg#icon-close"></use></svg></button>
+            <form>
+                <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <p class="modal-par">Ім'я</p>
+            <label><img src="images/user.svg" alt="user" class="modal-img"><input id="name" name="name" class="modal-input"></label>
+            <p class="modal-par">Телефон</p>
+            <label><img src="images/phone.svg" alt="phone" class="modal-img"><input id="phone" name="phone" class="modal-input"></label>
+            <p class="modal-par">Пошта</p>
+            <label><img src="images/mail.svg" alt="mail" class="modal-img"><input id="mail" name="mail" class="modal-input"></label>
+            <p class="modal-par">Коментар</p>
+            <label><textarea id="comment" name="comment" placeholder="Введіть текст" class="modal-area"></textarea></label>
+            <br>
+                 <input type="checkbox" id="Checkbox" name="Checkbox" class="checkbox">
+                <label for="Checkbox"><p class="terms">Погоджуюся з розсилкою та приймаю <a href="index.html" class="modal-link">Умови договору</a></p></label>
+            </form>
+            
+                <button class="btn-modal" data-modal-close>Відправити</button>
+        </div>
+    </div>
+        </section>
+        <section>
+            <div class="container">
+                <ul class="main-list">
+
+                    <li>
+                        <div class="card-img"></div>
+                        <h3 class="list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="p-description">Ідейні міркування, і навіть початок повсякденної роботи з формування
+                            позиції.</p>
                     </li>
-                    <li class="rishenna-punkty">
-                        <h4 class="item-title">ПУНКТУАЛЬНІСТЬ</h4>
-                        <p class="about-item">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-                        </p>
+                    <li>
+                        <div class="card-img-clock"></div>
+                        <h3 class="list-title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="p-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у
+                            себе.</p>
                     </li>
-                    <li class="rishenna-punkty">
-                        <h4 class="item-title">ПЛАНУВАННЯ</h4>
-                        <p class="about-item">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <li>
+                        <div class="card-img-gra"></div>
+                        <h3 class="list-title">ПЛАНУВАННЯ</h3>
+                        <p class="p-description">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
-                    <li class="rishenna-punkty">
-                        <h4 class="item-title">СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-                        <p class="about-item">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-                        </p>
+                    <li>
+                        <div class="card-img-astro"></div>
+                        <h3 class="list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="p-description">Значимість цих проблем настільки очевидна, що реалізація планових
+                            завдань.</p>
                     </li>
                 </ul>
             </div>
+            </div>
         </section>
-        <section class="zanyatya">
+        <div class="container">
+            <section>
+                <h2 class="what-we-do">Чим ми займаємося</h2>
+                <section class="what-w-d">
+                    <ul class="what-we-do-list">
+                        <div class="thumb">
+                            <li class="what-we-do-item"><img src="img/1.jpg" alt="пишемо на клавіатурі"
+                                    class="what-we-do-img"></li>
+                            <p class="label">Десктопні додатки</p>
+                        </div>
+                        <div class="thumb">
+                            <li class="what-we-do-item"><img src="img/2.jpg" alt="телефон і  клавіатура"
+                                    class="what-we-do-img"></li>
+                            <p class="label">Мобільні додатки</p>
+                        </div>
+                        <div class="thumb">
+                            <li class="what-we-do-item"><img src="img/3.jpg" alt="телефон і  клавіатура"
+                                    class="what-we-do-img"></li>
+                            <p class="label">Дизайнерські рішення</p>
+                        </div>
+                        </li>
+                    </ul>
+
+                </section>
+            </section>
+        </div>
+        <section class="section-our-team">
             <div class="container">
-                <center>
-                    <h2 class="section-title">Чим ми займаємося</h2>
-                </center>
-                <ul class="zanyatya-spysok">
-                    <li class="zanyatya-punkty"><img src="img/1.jpg" alt="Man coding"></li>
-                    <li class="zanyatya-punkty"><img src="img/2.jpg" alt="girl looking in phone"></li>
-                    <li class="zanyatya-punkty"><img src="img/3.jpg" alt="People chosing a color"></li>
-                </ul>
-        </section>
-        <section class="naszakomanda">
-            <div class="container">
-                <center>
-                    <h2 class="section-title">Наша команда</h2>
-                </center>
-                <ul class="komanda-spysok">
-                    <li class="komanda-punkty">
-                        <img src="img/man1.jpg" alt="Man" width="200" class="komanda-img">
+                <figure>
+                    <h2 class="our-team">Наша команда</h2>
+                </figure>
+                <ul class="our-team-lisst">
+                    <li class="our-team-item"><img src="img/man1.jpg" alt="Ігор Дем'яненко" width="250"
+                            class="our-team-picture-list">
                         <br>
-                        <b class="people-name">Ігор Дем'яненко</b>
-                        <p class="position">Product Designer</p>
-                        <ul class="komanda-link">
-                            <li class="komanda-link-items"><symbol id="icon-instagram" viewBox="0 0 32 32">
-                                <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
-                                <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
-                                <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
-                                </symbol></li>
-                            <li class="komanda-link-items"><symbol id="icon-twitter" viewBox="0 0 32 32">
-                                <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
-                                </symbol></li>
-                            <li class="komanda-link-items"><symbol id="icon-facebook" viewBox="0 0 32 32">
-                                <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
-                                </symbol></li>
-                            <li class="komanda-link-items"><symbol id="icon-linkedin2" viewBox="0 0 32 32">
-                                <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
-                                <path d="M2 12h6v18h-6v-18z"></path>
-                                <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
-                                </symbol></li>
+                        <b class="name">Ігор Дем'яненко</b>
+                        <p class="decrip">Product Designer</p>
+                        <ul class="svg-ico-list">
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico" width="20"
+                                        height="20">
+                                        <use href="images/symbol-defs.svg#icon-instagram"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico" width="20"
+                                        height="20">
+                                        <use href="images/symbol-defs.svg#icon-twitter"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico" width="20"
+                                        height="20">
+                                        <use href="images/symbol-defs.svg#icon-facebook"></use>
+                                        
+
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico " width="20"
+                                        height="20">
+                                        <use href="images/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg></a></li>
                         </ul>
                     </li>
-                    <li class="komanda-punkty">
-                        <img src="img/woman1.jpg" alt="Woman" width="200" class="komanda-img">
+                    <li class="our-team-item"><img src="img/woman1.jpg" alt="Ольга Рєпіна" width="250"
+                            class="our-team-picture-list">
                         <br>
-                        <b class="people-name">Ольга Рєпіна</b>
-                        <p class="position">Frontend Developer</p>
+                        <b class="name">Ольга Рєпіна</b>
+                        <p class="decrip">Frontend Developer</p>
+                        <ul class="svg-ico-list">
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-instagram"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-twitter"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-facebook"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg></a></li>
+                        </ul>
                     </li>
-                    <li class="komanda-punkty">
-                        <img src="img/man2.jpg" alt="Man" width="200" class="komanda-img">
+                    <li class="our-team-item"><img src="img/man2.jpg" alt="Микола Тарасов" width="250"
+                            class="our-team-picture-list">
                         <br>
-                        <b class="people-name">Микола Тарасов</b>
-                        <p class="position">Marketing</p>
+                        <b class="name">Микола Тарасов</b>
+                        <p class="decrip">Marketing</p>
+                        <ul class="svg-ico-list">
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-instagram"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-twitter"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-facebook"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg></a></li>
+                        </ul>
                     </li>
-                    <li class="komanda-punkty">
-                        <img src="img/man3.jpg" alt="Man" width="200" class="komanda-img">
+                    <li class="our-team-item"><img src="img/man3.jpg" alt="Михайло Єрмаков" width="250"
+                            class="our-team-picture-list">
                         <br>
-                        <b class="people-name">Михайло Єрмаков</b>
-                        <p class="position">UI Designer</p>
+                        <b class="name">Михайло Єрмаков</b>
+                        <p class="decrip">UI Designer</p>
+                        <ul class="svg-ico-list">
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-instagram"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-twitter"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico"
+                                        width="20" height="20">
+                                        <use href="images/symbol-defs.svg#icon-facebook"></use>
+                                    </svg></a></li>
+                            <li class="svg-ico-item"><a href="index.html" class="so-net-link"><svg class="so-net-ico" width="20"
+                                        height="20">
+                                        <use href="images/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg></a></li>
+                        </ul>
                     </li>
+
+                </ul>
+
+        </section>
+        <section class="clients">
+            <h1 class="client-title">Постійні клієнти</h1>
+            <ul class="client-list">
+                <li class="client-item"><svg width="41" height="46" class="client-ico">
+                        <use href="images/symbol-defs.svg#icon-yaico" fill="currentColor"
+                        ></use>
+                    </svg></li>
+                <li class="client-item"><svg width="40" height="52" class="client-ico">
+                        <use href="images/symbol-defs.svg#icon-com-2"></use>
+                    </svg></li>
+                <li class="client-item"><svg width="43" height="41" class="client-ico">
+                        <use href="images/symbol-defs.svg#icon-coman"></use>
+                    </svg></li>
+                <li class="client-item"><svg width="84" height="40" class="client-ico">
+                        <use href="images/symbol-defs.svg#icon-foterstep"></use>
+                    </svg></li>
+                <li class="client-item"><svg width="62" height="45" class="client-ico">
+                        <use href="images/symbol-defs.svg#icon-brand" width="62" height="45" class="client-ico"></use>
+                    </svg></li>
+                <li class="client-item"><svg width="93" height="43" class="client-ico">
+                        <use href="images/symbol-defs.svg#icon-lastcom"></use>
+                    </svg></li>
+            </ul>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-wrapper">
+            <div class="footer-wrapper-contacts">
+                <a href="index.html" class="webstudio">Web<span class="studio2">Studio</span></a>
+                <ul class="fo-font">
+                    <li>
+                        <p class="fo-footer">м. Київ, пр-т Лесі Українки, 26</p>
+                    </li>
+                    <li><a href="mailto:info@devstudio.com" class="mailto">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
                 </ul>
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <a href="index.html" class="raleway" style="color: rgb(0, 0, 0);"><span
-                    style="color: rgb(0, 170, 255);">Web</span>Studio</a>
-            <ul class="spysok" style="list-style: none;">
-                <li class="footer-adress" style="color: white; text-decoration: none;"><a href="http://surl.li/neaiq"
-                        target="_blank">м. Київ, пр-т Лесі Українки,
-                        26</a></li>
-                <li class="footer-adress"><a href="mailto:info@devstudio.com"
-                        style="color: #FFFFFF99; text-decoration: none;" class="mailf">info@devstudio.com</a></li>
-                <li class="footer-adress"><a href="tel:+380961111111" style="color: #FFFFFF99; text-decoration: none;"
-                        class="telf">+38 096 111
-                        11
-                        11</a></li>
-            </ul>
+
+            <div class="footer-social-networking-wrapper">
+                <h3 class="footer-title">Приєднуйтесь</h3>
+                <ul class="fo-so-net-list">
+                    <li class="fo-so-net-item"><a href="index.html" class="so-net-ico-link"><svg class="fo-so-net-ico">
+                                <use href="images/symbol-defs.svg#icon-insta-white" width="25" height="25"></use>
+                            </svg></li></a>
+                    <li class="fo-so-net-item"><a href="index.html" class="so-net-ico-link"><svg class="fo-so-net-ico">
+                                <use href="images/symbol-defs.svg#icon-twitter-white" width="20" height="20"></use>
+                            </svg></li></a>
+                    <li class="fo-so-net-item"><a href="index.html" class="so-net-ico-link"><svg class="fo-so-net-ico">
+                                <use href="images/symbol-defs.svg#icon-facebook-white" width="20" height="20"></use>
+                            </svg></li></a>
+                    <li class="fo-so-net-item"><a href="index.html" class="so-net-ico-link"><svg class="fo-so-net-ico">
+                                <use href="images/symbol-defs.svg#icon-linkedin-white" width="20" height="20"></use>
+                            </svg></li></a>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <h3 class="footer-title">Підпишіться на розсилку</h3>
+                <form>
+                    <div class="footer-wrapper">
+                      <input id="email" name="email" placeholder="E-mail" class="footer-input">
+                    <button type="button" class="footer-button">Підписатися <img src="images/send.svg" alt="send" class="footer-img"></button>  
+                    </div>
+                    
+                </form>
+            </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
