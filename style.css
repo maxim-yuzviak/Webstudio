@@ -23,7 +23,7 @@
     display: flex;
   } */
   
-  .active-r-now{
+  .active-now{
     color: rgb(33, 33, 33);
     font-family: "Roboto";
     font-size: 14px;
@@ -73,7 +73,7 @@
   }
   
   
-  .active-now {
+  .active-now-2 {
     font-family: "Roboto";
     background-color: var(--accent-color);
     color: white;
@@ -113,7 +113,7 @@
   }
   
   .active-now:hover {
-    background-color: var(--accent-color-hover);
+    background-color: white;
   }
   
   
@@ -140,41 +140,9 @@
   .Web {
     color: blue;
   }
-  
-  /* #up{
-      max-width: 600px;
-      text-align:10;
-      color: rgb(30, 255, 0);
-  } */
-  /* Це початок header */
   header>ul {
     color: rgb(20, 255, 235);
     font-family: 'Courier New', Courier, monospace;
-  }
-  
-  
-  .status {
-    font-size: 30px;
-  }
-  
-  .green {
-    color: green;
-  }
-  
-  .orange {
-    color: orange;
-  }
-  
-  .red {
-    color: red;
-  }
-  
-  .test {
-    background-color: rgba(255, 145, 0, 0.692);
-  }
-  
-  .back {
-    background-color: var(--footer-efectivity-substrate-color);
   }
   
   footer {
@@ -226,7 +194,7 @@
    
   }
   
-  .webstudio {
+  .web {
     color: var(--accent-color);
     font-family: "Raleway";
     font-size: 26px;
@@ -493,12 +461,8 @@
     width: 20px;
   height: 20px;
   display: block;
-  fill: #e9e6e6;
-  }
-  
-  
-  .so-net-ico:hover{
-     fill:#2196F3;
+  fill: #AFB1B8;
+  ;
   }
   
   .svg-ico-item:hover{
@@ -774,6 +738,7 @@
   display: block;
   position: relative;
     top: 2px;
+  color: white;
   }
   
   .footer-button{
