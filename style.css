@@ -135,11 +135,7 @@
     align-items: center;
     text-align: center;
   }
-  
-  
-  .Web {
-    color: blue;
-  }
+
   header>ul {
     color: rgb(20, 255, 235);
     font-family: 'Courier New', Courier, monospace;
@@ -1226,3 +1222,53 @@
     margin: 0 auto;
     /* outline: rgb(110, 173, 209) 1px solid; */
   } 
+
+  .section-buttons {
+    .main-buttons-list {
+      list-style: none;
+      display: flex;
+      margin-top: 94px;
+      flex-direction: row;
+      gap: 8px;
+      justify-content: center;
+    }
+  }
+
+  .spysok-products {
+    list-style: none;
+  margin-top: 34px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  gap: 27px;
+  }
+
+  .products-punkty {
+    flex-basis: calc((100% - 20px*370) / 9);
+  border: 1px solid rgb(238, 238, 238);
+  height: ;
+  }
+
+  .box{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .box:hover .hover-text {
+    transform: translatey(-100%);
+  }
+
+  .hover-text {
+    position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+  }
