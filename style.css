@@ -964,16 +964,16 @@
    transform:translateY(-20px) ; 
   }
   
-  .active:hover .decor-2{
+  .active:hover .decor-portfolio{
     transform: translateY(-20px);
   }
   
   
-  .decor-2{
+  .decor-portfolio{
     position: relative;
     top: 30px;
     right: 2px;
-    width: 78px;
+    width: 73px;
   height: 4px;
     border-radius: 2px;
   background: rgb(33, 150, 243);
@@ -1083,7 +1083,7 @@
   
   }
   
-  .mailto-2 {
+  .mailto-portfolio {
     text-decoration: none;
     color: var(--grey-text-color);
     font-family: "Roboto";
@@ -1247,6 +1247,8 @@
   .products-punkty {
     flex-basis: calc((100% - 20px*370) / 9);
   border: 1px solid rgb(238, 238, 238);
+  width: 307;
+  height: 404px;
   }
 
   .box{
@@ -1275,7 +1277,21 @@
   .portfolio-button {
     color: #212121;
     background-color: #F5F4FA;
-    border-color: #F5F4FA;
+    border: 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
   }
 
 
@@ -1283,4 +1299,40 @@
   background-color: #2196F3;
   border-color: #2196F3;
   color: #ffffff;
+}
+
+.buttons {
+  list-style: none;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 94px;
+}
+
+.card-title {
+  font-family: "Roboto", bold;
+    font-style: normal;
+    color: rgb(33, 33, 33);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 6%;
+    padding-left: 24px;
+}
+
+.card-description {
+  color: rgb(117, 117, 117);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 3%;
+    text-align: left;
+    color: #757575;
+    padding-left: 24px;
 }
